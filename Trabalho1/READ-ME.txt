@@ -1,0 +1,24 @@
+ ===========================================================================================
+ Name        : Trabalho Pratico 1 - Software Básico											
+ Author      : 10/0106510 - Jessé Barreto de Barros
+ 			 : 10/0114067 - Marco Emílio Rodrigues Miranda
+ Description : Trabalho de Software Básico 1
+ 	 	 	   O trabalho consiste em duas partes
+ 	 	 	   (i) Implementar em C/C++ um
+ 	 	 	   método de tradução de uma linguagem de montagem simples para uma
+ 	 	 	   representação de código objeto.
+ 	 	 	   (ii) Implementar um programa em C/C++ para simular a execução de
+ 	 	 	   um código objeto da parte anterior.
+ Compilation
+ Command	 : gcc -ansi -Wall SB_trab1.c -o SB_trab.o
+ Execution
+ Command	 : ./SB_trab1 a.asm b.pre c.obj (Montagem - b.pre e c.obj)
+			   ./SB_trab1 c.obj (Simulação - c.obj Arq objeto)				
+ ===========================================================================================
+ 
+ O SO utilizado foi o Ubuntu 14.04, e edição foi feita no Sublime Text e a compilação no Terminal.
+ 
+ OBS.: O arquivo monta .asm que tem o SECTION TEXT depois do SECTION DATA, porém ele não consegue simular. 
+ 
+ Em anexo vão codigos usados como teste que obtiveram sucesso.
+
